@@ -7,18 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TodoComponent } from './todo/todo.component';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    TodoComponent
-  ],
+  declarations: [AppComponent, NavbarComponent, TodoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatToolbarModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
