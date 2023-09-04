@@ -5,8 +5,6 @@
 }
 
 .todo-field {
-  display: flex;
-  justify-content: center;
   width: 40vw;
 }
 
@@ -18,6 +16,16 @@
 .todo-button-add {
   height: 55px;
   width: 100px;
+}
+
+.cols-title {
+  text-align: center;
+}
+
+.todo-row-cols {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .example-container {
@@ -76,6 +84,10 @@
 
 @media screen and (max-width: 700px) {
   .todo-field {
-    width: 100vw;
+    width: 80vw;
+  }
+
+  .todo-row-cols {
+    flex-direction: column;
   }
 }
