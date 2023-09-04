@@ -1,0 +1,27 @@
+.todo-card {
+  border-radius: 0px;
+  background-color: rebeccapurple;
+  height: 56px;
+}
+
+.todo-field {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-button-add {
+  height: 55px;
+  width: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .todo-field {
+    width: 100vw;
+  }
+}
