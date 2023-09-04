@@ -1,27 +1,21 @@
-# ComoAmigosToDo
+# ComoAmigos - ToDo - Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+Funcionalidades:
 
-## Development server
+-Listas de tareas en varias columnas dependiendo de su progreso y donde se pueden borrar y editar.
+-Validaciones para que no haya tareas en blanco ni que sean demasiado largas.
+-Diseño responsive
+-Animacion Drag and Drop para mover las tareas de una columna a la otra.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+App:
 
-## Code scaffolding
+-La app esta deployada en la siguiente url: https://como-amigos-to-do.vercel.app/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-Repositorio: https://github.com/DamGarA/ComoAmigos_ToDo
+(para correrlo localmente, clonarlo e inciarlo con "ng serve")
 
-## Build
+Desarrollado por: Damián García Abreu
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+LinkedIn: https://www.linkedin.com/in/dami%C3%A1n-garc%C3%ADa-abreu-381236255/
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Portfolio: https://portfolio-dam-gar-a.vercel.app/
